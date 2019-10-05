@@ -1,0 +1,36 @@
+************************************************************
+*	PROGRAMMED BY : Ramon Amini
+*	STUDENT ID    : 1086060
+*	CLASS         : M/W - 5pm
+*	ASSIGNMENT 5  : Priority Queue
+************************************************************
+/******************************************************************************
+ *  Assignment 4 - Priority Queue
+ * ----------------------------------------------------------------------------
+ *  INPUT:
+ * 	This program:
+ *  
+ *-----------------------------------------------------------------------------
+******************************************************************************/
+
+Patient: Tom Temperature finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Programn
+
+*** STARTING TIME: 12 ***
+*** ENDING TIME: 12.25 ***
+Patient: Alice Allment finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Programn
+
+*** STARTING TIME: 12.25 ***
+*** ENDING TIME: 12.5 ***
+Patient: Bob Bleeding finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Programn
+
+*** STARTING TIME: 12.5 ***
+1313*** ENDING TIME: 12.4 ***
+Patient: Cathy Coughing finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program
