@@ -13,24 +13,179 @@
  *-----------------------------------------------------------------------------
 ******************************************************************************/
 
-Patient: Tom Temperature finished the operation
+***************************************************************************
+* SIMULATING AN AFTERNOON IN AN EMERGENCY ROOM WITH MY OWN PRIORITY QUEUE *
+***************************************************************************
+CURRENT HOSPITAL QUEUE :
+Priority       Item
+8                 Tom Temperature
+7                 Alice Allment
+6                 Bob Bleeding
+5                 Cathy Coughing
+4                 Paula Pain
+3                 Frank Feelingbad
+1                 Irene Ill
 
-Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Programn
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
 
 *** STARTING TIME: 12 ***
 *** ENDING TIME: 12.25 ***
-Patient: Alice Allment finished the operation
+Patient: Tom Temperature finished the operation
 
-Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Programn
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
 
 *** STARTING TIME: 12.25 ***
 *** ENDING TIME: 12.5 ***
-Patient: Bob Bleeding finished the operation
+Patient: Alice Allment finished the operation
 
-Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Programn
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
 
 *** STARTING TIME: 12.5 ***
-1313*** ENDING TIME: 12.4 ***
+*** ENDING TIME: 13.15 ***
+Patient: Bob Bleeding finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: Y
+
+Please Enter The Name of the New Patient: Sam Sneezing
+
+Please Enter The Priority of the New Patient (Enter 100 for Life Threatening Injuries): 100
+
+Please Enter The Time You're Operation Starts: 13.34
+
+*** STARTING TIME: 13.15 ***
+
+*** INTERUPRING Cathy Coughing OPERATION DUE TO Sam Sneezing CRITICAL INJURY AT TIME: 13.34 ***
+
+*** STARTING TIME: 13.34 ***
+*** ENDING TIME: 13.59 ***
+Patient: Sam Sneezing finished the operation
+
+***FINISHING THE UNCOMPLETED OPERATION FROM Cathy Coughing ***
+*** STARTING TIME: 13.59 ***
+*** ENDING TIME: 14.05 ***
 Patient: Cathy Coughing finished the operation
 
-Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: Y
+
+Please Enter The Name of the New Patient: Sid Sickly
+
+Please Enter The Priority of the New Patient (Enter 100 for Life Threatening Injuries): 100
+
+Please Enter The Time You're Operation Starts: 14.12
+
+*** STARTING TIME: 14.05 ***
+
+*** INTERUPRING Paula Pain OPERATION DUE TO Sid Sickly CRITICAL INJURY AT TIME: 14.12 ***
+
+*** STARTING TIME: 14.12 ***
+*** ENDING TIME: 14.37 ***
+Patient: Sid Sickly finished the operation
+
+***FINISHING THE UNCOMPLETED OPERATION FROM Paula Pain ***
+*** STARTING TIME: 14.37 ***
+*** ENDING TIME: 14.55 ***
+Patient: Paula Pain finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
+
+*** STARTING TIME: 14.55 ***
+*** ENDING TIME: 15.2 ***
+Patient: Frank Feelingbad finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
+
+*** STARTING TIME: 15.2 ***
+*** ENDING TIME: 15.45 ***
+Patient: Irene Ill finished the operation
+
+Queue is empty
+
+
+
+***********************************************************************
+* SIMULATING AN AFTERNOON IN AN EMERGENCY WITH THE STL PRIORITY QUEUE *
+***********************************************************************
+
+CURRENT HOSPITAL QUEUE :
+Priority       Item
+8                 Tom Temperature
+7                 Alice Allment
+6                 Bob Bleeding
+5                 Cathy Coughing
+4                 Paula Pain
+3                 Frank Feelingbad
+1                 Irene Ill
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
+
+*** STARTING TIME: 12 ***
+*** ENDING TIME: 12.25 ***
+Patient: Tom Temperature finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
+
+*** STARTING TIME: 12.25 ***
+*** ENDING TIME: 12.5 ***
+Patient: Alice Allment finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
+
+*** STARTING TIME: 12.5 ***
+*** ENDING TIME: 13.15 ***
+Patient: Bob Bleeding finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: Y
+
+Please Enter The Name of the New Patient: Sam Sneezing
+
+Please Enter The Priority of the New Patient (Enter 100 for Life Threatening Injuries): 100
+
+Please Enter The Time You're Operation Starts: 13.34
+
+*** STARTING TIME: 13.15 ***
+
+*** INTERUPRING Cathy Coughing OPERATION DUE TO Sam Sneezing CRITICAL INJURY AT TIME: 13.34 ***
+
+*** STARTING TIME: 13.34 ***
+*** ENDING TIME: 13.59 ***
+Patient: Sam Sneezing finished the operation
+
+***FINISHING THE UNCOMPLETED OPERATION FROM Cathy Coughing ***
+*** STARTING TIME: 13.59 ***
+*** ENDING TIME: 14.05 ***
+Patient: Cathy Coughing finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: Y
+
+Please Enter The Name of the New Patient: Sid Sickly
+
+Please Enter The Priority of the New Patient (Enter 100 for Life Threatening Injuries): 100
+
+Please Enter The Time You're Operation Starts: 14.12
+
+*** STARTING TIME: 14.05 ***
+
+*** INTERUPRING Paula Pain OPERATION DUE TO Sid Sickly CRITICAL INJURY AT TIME: 14.12 ***
+
+*** STARTING TIME: 14.12 ***
+*** ENDING TIME: 14.37 ***
+Patient: Sid Sickly finished the operation
+
+***FINISHING THE UNCOMPLETED OPERATION FROM Paula Pain ***
+*** STARTING TIME: 14.37 ***
+*** ENDING TIME: 14.55 ***
+Patient: Paula Pain finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
+
+*** STARTING TIME: 14.55 ***
+*** ENDING TIME: 15.2 ***
+Patient: Frank Feelingbad finished the operation
+
+Would you like to Enter a New Patient into the Priority Queue? (Y/N) Enter 0 to Exit Program: N
+
+*** STARTING TIME: 15.2 ***
+*** ENDING TIME: 15.45 ***
+Patient: Irene Ill finished the operation
+
+Queue is empty
