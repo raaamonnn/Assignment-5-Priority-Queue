@@ -68,6 +68,20 @@ class PriorityQueue
                 free(tmp);
             }
         }
+
+        /*
+         * Print Priority Queue
+         */
+
+        string showFront()
+        {
+            if(front == NULL)
+                cout<<"Queue Underflow\n";
+            else
+            {
+                return front->info;
+            }
+        }
         /*
          * Print Priority Queue
          */
@@ -78,7 +92,7 @@ class PriorityQueue
             if (front == NULL)
                 cout<<"Queue is empty\n";
             else
-            {	cout<<"Queue is :\n";
+            {	cout<<"CURRENT HOSPITAL QUEUE :\n";
                 cout<<"Priority       Item\n";
                 while(ptr != NULL)
                 {
